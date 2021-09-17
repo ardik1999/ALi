@@ -10,11 +10,11 @@ function error(message, options = {}){
   return message.channel.send(
     new MessageEmbed()
     .setColor('RED')
-    .setFooter(`${options.type} | \©️${new Date().getFullYear()} ALi`)
+    .setFooter(`${options.type} | \©️${new Date().getFullYear()} `)
     .setDescription([
       `${em.error}\u2000\u2000|\u2000\u2000${options.title}\n\n`,
       options.subtitle ? options.subtitle + '\n' : '',
-      `[**Learn More**](${options.source}) on how to configure ALi's ${options.type} feature.`
+      `[**Learn More**](${options.source}) on how to configure ${options.type} feature.`
     ].join(''))
   );
 };
@@ -24,11 +24,11 @@ function saveDocument(document, message, options = {}){
   .then(() => message.channel.send(
     new MessageEmbed()
     .setColor('GREEN')
-    .setFooter(`${options.type} | \©️${new Date().getFullYear()} ALi`)
+    .setFooter(`${options.type} | \©️${new Date().getFullYear()} `)
     .setDescription([
       `\u2000\u2000|\u2000\u2000${options.title}\n\n`,
       options.subtitle ? options.subtitle + '\n' : '',
-      `[**Learn More**](${options.source}) on how to configure ALi's ${options.type} feature.`
+      `[**Learn More**](${options.source}) on how to configure ${options.type} feature.`
     ].join(''))
   ));
 };
