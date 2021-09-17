@@ -5,7 +5,7 @@ const settings = {
   client: {
     presence: {
       activity: {
-        name: 'Tag Me',
+        name: 'Tag aja',
         type: 'COMPETING'
       }
     },
@@ -64,7 +64,7 @@ const settings = {
 
   // set the default prefix, if non-string data-type is provided, will resolve
   // to the prefix 'a!'
-  prefix: 'a.',
+  prefix: 'a',
 
   // allowed features for the bot, you can add/remove features you want.
   allowedFeatures: [ 'ANISCHEDULE', 'EXPERIENCE_POINTS'],
@@ -72,7 +72,7 @@ const settings = {
   // logging channels for the bot. To disable logging specific events - pass
   // a falsy value (undefined, null, 0). You may also remove the property
   // altogether, although this is not preferred.
-  channels: { debug: '740205864031617047', uploads: '837650964604649502', logs: '740205864031617047' },
+  channels: { debug: '888427160291917844', uploads: '888427211659567196', logs: '888427235311235102' },
 
   emojis: {
     
@@ -103,7 +103,7 @@ const settings = {
   // Client#config#websites
   websites: {
     "repository":"-",
-    "invite": "https://discord.com/api/oauth2/authorize?client_id=748278846041620594&permissions=8&scope=bot",
+    "invite": "https://discord.com/api/oauth2/authorize?client_id=748312657081270373&permissions=8&scope=bot",
     "support": "https://discord.gg/jryb2Et",
     "DisBotlist": "-"
   }
