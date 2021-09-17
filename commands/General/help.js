@@ -16,7 +16,7 @@ module.exports = {
   group: 'General',
   description: 'Displays basic information or a help for a command.',
   clientPermissions: [ 'EMBED_LINKS' ],
-  parameters: [ 'Command Name/Alina' ],
+  parameters: [ 'Command Name' ],
   examples: [
     'help anirand',
     'help watching',
@@ -88,7 +88,7 @@ module.exports = {
       .setThumbnail(client.user.displayAvatarURL())
       .addFields(group)
       .setDescription(
-        `These are the commands of ${client.user.username} if you want to get more details of a command type\n\`\`\`${client.prefix}help [command name]\`\`\``)
+        `These are the commands of ${client.user.username}`)
       .setFooter(
         `Help | \©️${new Date().getFullYear()} ${client.config.foot}`)
       
