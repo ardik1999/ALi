@@ -5,7 +5,7 @@ const settings = {
   client: {
     presence: {
       activity: {
-        name: 'Beta',
+        name: 'Tag Me',
         type: 'COMPETING'
       }
     },
@@ -64,7 +64,7 @@ const settings = {
 
   // set the default prefix, if non-string data-type is provided, will resolve
   // to the prefix 'a!'
-  prefix: 'a!',
+  prefix: 'a.',
 
   // allowed features for the bot, you can add/remove features you want.
   allowedFeatures: [ 'ANISCHEDULE', 'EXPERIENCE_POINTS'],
@@ -72,7 +72,7 @@ const settings = {
   // logging channels for the bot. To disable logging specific events - pass
   // a falsy value (undefined, null, 0). You may also remove the property
   // altogether, although this is not preferred.
-  channels: { debug: '865903567083929611', uploads: '865903802925449237', logs: '865858680461328404' },
+  channels: { debug: '740205864031617047', uploads: '837650964604649502', logs: '740205864031617047' },
 
   emojis: {
     
@@ -97,15 +97,15 @@ const settings = {
   
   // Array of owners recognized by the bot. ID here will be given access to
   // owner based commands.
-  owners: [ '491577179495333903' ],
+  owners: [ '388274270238932993' ],
 
   // websites affiliated with the bot, can be accessed through
   // Client#config#websites
   websites: {
-    "repository":"https://github.com/brblacky/ALi#readme/",
-    "invite": "https://discord.com/api/oauth2/authorize?client_id=841716414053351486&permissions=8&scope=bot",
-    "support": "https://discord.gg/uAVaeCP9VH",
-    "DisBotlist": "https://disbotlist.xyz/bot/841716414053351486"
+    "repository":"-",
+    "invite": "https://discord.com/api/oauth2/authorize?client_id=748278846041620594&permissions=8&scope=bot",
+    "support": "https://discord.gg/jryb2Et",
+    "DisBotlist": "-"
   }
 };
 
