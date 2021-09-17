@@ -27,7 +27,7 @@ module.exports = {
     const dailyUsed = doc.data.economy.streak.timestamp !== 0 && doc.data.economy.streak.timestamp - Date.now() > 0;
 
     function bunnify(cur, max){
-      const active = '<:activebunny:865675744649805865>', inactive = '<:inactivebunny:865675708411281459>', left = max - cur === 10 ? 0 : max - cur;
+      const active = '<a:iya:888463339750039582>', inactive = '🟣', left = max - cur === 10 ? 0 : max - cur;
       if (left === 0){
         return dailyUsed ? active.repeat(10) : inactive.repeat(10);
       } else {
