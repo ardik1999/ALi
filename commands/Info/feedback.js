@@ -8,7 +8,7 @@ module.exports = {
   cooldown: { time: 30000 },
   clientPermissions: [ ],
   group: 'Info',
-  description: 'Sends support message to this bot\'s owner (@Blacky#6618 )',
+  description: 'Sends support message to this bot\'s owner (@Ardik#2695)',
   parameters: [ 'Feedback Message' ],
   examples: [
     'feedback this command is not working bla bla..'
@@ -25,10 +25,10 @@ module.exports = {
       return message.channel.send(`${em.error} | ${message.author}, Please make your report brief and short! (MAX 1000 characters!)`).then(()=>  message.react("💢"));
     };
     const { color } = client.config;
-    const owner = await client.users.fetch('491577179495333903').catch(() => null);
+    const owner = await client.users.fetch('388274270238932993').catch(() => null);
 
     if (!owner){
-      return message.channel.send(`Couldn't contact @Blacky#6618 !`);
+      return message.channel.send(`Couldn't contact @Ardik#2695 !`);
     };
 
     return owner.send(
