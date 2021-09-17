@@ -1,17 +1,23 @@
 {
+  "//1": "describes your app and its dependencies",
+  "//2": "https://docs.npmjs.com/files/package.json",
+  "//3": "updating this file will download and update your packages",
   "name": "ali",
   "version": "1.0.1",
-  "description": "Alina A Discord bot that  ranking, music, moderation and much more, all open source!",
+  "description": "A simple Node app built on Express, instantly up and running.",
   "main": "index.js",
+  "scripts": {
+    "start": "node server.js"
+  },
   "dependencies": {
-     "@discordjs/opus": "github:discordjs/opus",
+    "@discordjs/opus": "^0.5.0",
     "animequotes": "^1.1.2",
     "bad-words": "^3.0.4",
     "canvas": "^2.8.0",
     "disbotlist": "^1.0.4",
     "discord-buttons": "^4.0.0",
     "discord.js": "^12.5.3",
-    "distube": "^2.8.15",
+    "distube": "^2.8.18",
     "dotenv": "^10.0.0",
     "hanime": "^1.2.1",
     "he": "^1.2.0",
@@ -22,36 +28,35 @@
     "mal-scraper": "^2.11.3",
     "moment": "^2.29.1",
     "moment-duration-format": "^2.3.2",
-    "mongoose": "^5.13.3",
+    "mongoose": "^5.13.9",
     "nhentai-api": "^3.0.2",
-    "node-fetch": "^2.6.1",
+    "node-fetch": "^2.6.2",
     "node-kitsu": "^1.1.1",
+    "opus": "0.0.0",
     "quick.db": "^7.1.3",
     "relevant-urban": "^2.0.0",
-    "require-text": "^0.0.1",
+    "require-text": "0.0.1",
     "wanakana": "^4.0.2",
-    "ytdl-core": "^4.9.0"
+    "weky": "^3.1.8",
+    "ytdl-core": "^4.9.1"
   },
   "devDependencies": {},
   "engines": {
-   "node": ">=14.0.0",
-  "scripts": {
-        "start": "node index.js"
-      },
-      "repository": {
-        "type": "git",
-        "url": "git+https://github.com/brblacky/Alina.git"
-      },
-      "keywords": [
-        "discord",
-        "music-bot",
-        "moderation",
-        "fun",
-        "alina"
-      ],
-      "author": "Blacky#6618, Venom#9718",
-      "license": "MIT",
-      "bugs": "https://github.com/brblacky/Alina/issues",
-      "homepage": "https://github.com/brblacky/Alina#readme"
-  }  
+    "node": "12.x"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/brblacky/Alina.git"
+  },
+  "license": "MIT",
+  "keywords": [
+    "discord",
+    "music-bot",
+    "moderation",
+    "fun"
+
+  ],
+  "author": "Blacky#6618, Venom#9718",
+  "bugs": "https://github.com/brblacky/Alina/issues",
+  "homepage": "https://github.com/brblacky/Alina#readme"
 }
