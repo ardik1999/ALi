@@ -1043,5 +1043,17 @@
     "assets": {
       "link": "https://i.imgur.com/ffH9gnI.png"
     }
+  },
+  {
+    "id": 95,
+    "name": "Cafenatics",
+    "description": "Rare Profile Emblem",
+    "type": "emblem",
+    "deletable": true,
+    "giftable": true,
+    "price": 30000,
+    "assets": {
+      "link": "https://cdn.discordapp.com/attachments/888437647175987241/888443142876041216/ci_en.png"
+    }
   }
 ]
